@@ -1,0 +1,21 @@
+.icon_tg .icon__bg {
+	fill: $tg;
+}
+
+.icon_tg:hover .icon__bg {
+	fill: $tg-hover;
+}
+
+
+.icon_vk .icon__bg {
+	fill: $vk;
+}
+
+.icon_vk:hover .icon__bg {
+	fill: $vk-hover;
+}
+
+.social {
+	display: flex;
+	justify-content: end;
+}
