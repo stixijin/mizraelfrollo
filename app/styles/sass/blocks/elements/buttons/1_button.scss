@@ -1,0 +1,8 @@
+.button {
+	text-decoration: none;
+	display: block;
+	width: fit-content;
+	transition-property: color, background;
+	transition-duration: $transitionDur_dafault;
+	transition-timing-function: $transitionFunc_default;
+}

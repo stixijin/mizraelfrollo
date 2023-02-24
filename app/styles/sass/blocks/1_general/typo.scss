@@ -1,0 +1,85 @@
+.typo_h1 {
+	font-size: 2.625em;
+	line-height: 1;
+	@media (min-width: 768px) {
+		font-size: 3.5em;
+	}
+	@media (min-width: 1024px) {
+		font-size: 4em;
+	}
+	@media (min-width: 1440px) {
+		font-size: 4.5em;
+	}
+}
+
+.typo_h2 {
+	font-size: 2.25em;
+
+	@media (min-width: 768px) {
+		font-size: 3em;
+	}
+}
+
+.typo_h3 {
+	font-size: 2em;
+
+	@media (min-width: 768px) {
+		font-size: 2.5em;
+	}
+}
+
+.typo_h4 {
+	font-size: 1.75em;
+
+	@media (min-width: 768px) {
+		font-size: 2em;
+	}
+}
+
+.typo_h5 {
+	font-size: 1.5em;
+
+	@media (min-width: 768px) {
+		font-size: 1.5em;
+	}
+}
+
+.typo_h6 {
+	font-size: 1.25em;
+	
+	@media (min-width: 768px) {
+		font-size:1.5em;
+	}
+}
+
+.typo_text {
+	font-size: 1.125em;
+	@media (min-width: 768px) {
+		font-size: 1.25em;
+	}
+}
+
+.type_text_small {
+	font-size: 1em;
+	@media (min-width: 768px) {
+		font-size: 1.125em;
+	}
+}
+
+.typo_caption {
+	font-size: 0.875em;
+}
+
+.typo_bold {
+	font-weight: 600;
+}
+
+
+.typo_medium {
+	font-weight: 500;
+}
+
+
+.typo_regular {
+	font-weight: 400;
+}

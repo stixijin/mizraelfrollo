@@ -1,0 +1,19 @@
+.button-appoint {
+	background: $accent-40;
+	color: $neutral-0;
+	padding: 16px 24px;
+	border-radius: 16px;
+	font-weight: 600;
+	font-size: 16px;
+	@media (min-width: 768px) {
+		font-size: 24px;
+		padding: 20px 48px;
+		width: fit-content;
+		text-align: start;
+	}
+}
+
+.button-appoint:hover {
+	background: $accent-40-hover;
+	color: $neutral-0;
+}

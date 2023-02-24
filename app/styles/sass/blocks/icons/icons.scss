@@ -1,0 +1,5 @@
+.icon__bg {
+	transition-property: fill, stroke;
+	transition-duration: $transitionDur_dafault;
+	transition-timing-function: $transitionFunc_default;
+}

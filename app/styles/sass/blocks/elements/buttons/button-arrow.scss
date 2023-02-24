@@ -1,0 +1,17 @@
+.button-arrow {
+	display: flex;
+	color: $neutral-10;
+}
+
+.button-arrow .icon_arrow {
+	margin-top: 2px;
+	margin-left: $s-1;
+}
+
+.button-arrow:hover {
+	color: $primary-40;
+}
+
+.button-arrow:hover .icon__bg {
+	fill: $primary-40;
+}

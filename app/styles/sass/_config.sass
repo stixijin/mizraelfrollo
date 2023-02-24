@@ -1,26 +1,65 @@
 // USER VARIABLES SECTION
 
-$accent: orange // Accent Color
-$fontsize: 16px // Body Font Size
-$textcolor: #333 // Text Color
-$lineheight: 1.65 // Document Line Height
-$userfont: Montserrat, sans-serif // User Font Family
-$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
 
-
+// SPACES
+$module: 8px	
+$s-xxs: calc($module/4)
+$s-xs: calc($module/2)
+$s-1: calc($module)
+$s-2: calc($module*2)
+$s-3: calc($module*3)
+$s-4: calc($module*4)
+$s-5: calc($module*5)
+$s-6: calc($module*6)
+$s-7: calc($module*7)
+$s-8: calc($module*8)
+$s-9: calc($module*10)
+$s-10: calc($module*15)
 
 
 
 // COLORS
 
+// PRIMARY
+$primary-10: hsla(211, 100%, 11%, 1)
+$primary-40: hsla(201, 42%, 35%, 1)
+$primary-60: hsla(204, 100%, 88%, 1)
+$primary-80: hsla(219, 100%, 92%, 1)
+
+// ACCENT
+
+$accent-40: hsla(49, 98%, 60%, 1)
+$accent-40-hover: hsla(49, 98%, 55%, 1)
+
+
+
+// NEUTRAL
+$neutral-0: hsla(0, 0%, 0%, 1)
+$neutral-10: hsla(210, 7%, 11%, 1)
+
+// SOCIAL
 $tg: hsla(197, 72%, 56%, 1)
 $tg-hover: hsla(197, 80%, 56%, 1)
 $vk: hsla(211, 35%, 47%, 1)
 $vk-hover: hsla(211, 60%, 47%, 1)
 
+
+// FONTS
+$fontsize: 16px // Body Font Size
+$textcolor: $neutral-10 // Text Color
+$lineheight: 1.25 // Document Line Height
+$userfont: Montserrat, sans-serif // User Font Family
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
+
 // Bootstrap compatible gutter variable => $gutter
 $grid-gutter-width: 30px
 $gutter: $grid-gutter-width
+
+
+// ANIMATIONS
+
+$transitionDur_dafault: 0.5s
+$transitionFunc_default: ease
 
 // IMPORT SECTION
 
@@ -48,7 +87,7 @@ $gutter: $grid-gutter-width
 	color: #666
 
 ::selection
-	background-color: $accent
+	background-color: $primary-40
 	color: #fff
 
 input, textarea

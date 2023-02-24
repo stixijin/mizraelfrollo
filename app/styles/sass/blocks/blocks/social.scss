@@ -1,0 +1,10 @@
+.social {
+	display: flex;
+	justify-content: end;
+	gap: 4px;
+}
+
+.social__link {
+	display: block;
+	border-radius: 360px;
+}

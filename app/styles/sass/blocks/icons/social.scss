@@ -1,21 +1,20 @@
 .icon_tg .icon__bg {
 	fill: $tg;
+	stroke: transparent;
 }
 
 .icon_tg:hover .icon__bg {
 	fill: $tg-hover;
+	stroke: $primary-10;
 }
 
 
 .icon_vk .icon__bg {
 	fill: $vk;
+	stroke: transparent;
 }
 
 .icon_vk:hover .icon__bg {
 	fill: $vk-hover;
-}
-
-.social {
-	display: flex;
-	justify-content: end;
+	stroke: $primary-10;
 }
