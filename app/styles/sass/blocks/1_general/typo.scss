@@ -1,3 +1,16 @@
+$fontsize: 16px; // Body Font Size
+$textcolor: $neutral-10; // Text Color
+$lineheight: 1.25; // Document Line Height
+$userfont: Montserrat, sans-serif;// User Font Family
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+
+body {
+	font-family: $userfont;
+	font-size: $fontsize;
+	line-height: $lineheight;
+	color: $textcolor;
+}
+
 .typo_h1 {
 	font-size: 2.625em;
 	line-height: 1;
@@ -13,7 +26,7 @@
 }
 
 .typo_h2 {
-	font-size: 2.25em;
+	font-size: 1.75em;
 
 	@media (min-width: 768px) {
 		font-size: 3em;
@@ -21,7 +34,7 @@
 }
 
 .typo_h3 {
-	font-size: 2em;
+	font-size: 1.5em;
 
 	@media (min-width: 768px) {
 		font-size: 2.5em;
@@ -29,15 +42,14 @@
 }
 
 .typo_h4 {
-	font-size: 1.75em;
-
+	font-size: 1.25em;
 	@media (min-width: 768px) {
 		font-size: 2em;
 	}
 }
 
 .typo_h5 {
-	font-size: 1.5em;
+	font-size: 1.20em;
 
 	@media (min-width: 768px) {
 		font-size: 1.5em;
@@ -45,7 +57,7 @@
 }
 
 .typo_h6 {
-	font-size: 1.25em;
+	font-size: 1.15em;
 	
 	@media (min-width: 768px) {
 		font-size:1.5em;
@@ -53,21 +65,21 @@
 }
 
 .typo_text {
-	font-size: 1.125em;
+	font-size: 1em;
 	@media (min-width: 768px) {
 		font-size: 1.25em;
 	}
 }
 
-.type_text_small {
-	font-size: 1em;
+.typo_text_small {
+	font-size: 0.9em;
 	@media (min-width: 768px) {
 		font-size: 1.125em;
 	}
 }
 
 .typo_caption {
-	font-size: 0.875em;
+	font-size: 0.8em;
 }
 
 .typo_bold {

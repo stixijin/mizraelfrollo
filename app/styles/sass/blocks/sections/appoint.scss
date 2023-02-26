@@ -1,0 +1,36 @@
+.appoint {
+	margin: calc($section-margin / 2) 0;
+	@media (min-width: 768px) {
+		margin: $section-margin 0;
+	}
+}
+
+.appoint__image {
+	border-radius: $br-main;
+	width: 100%;
+	@media (min-width: 992px) {
+		height: 100%;
+		object-fit: cover;
+		object-position: 30%;
+	}
+}
+
+.appoint__content {
+	margin-top: $s-4;
+	@media (min-width: 992px) {
+		margin-top: 0;
+	}
+}
+
+.appoint-mail__img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.appoint_mail .appoint__content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

@@ -1,0 +1,36 @@
+.sessions {
+	margin: calc($section-margin / 2) 0;
+	@media (min-width: 768px) {
+		margin: $section-margin 0;
+	}
+}
+
+.sessions__type {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100% - $s-3);
+	margin-top: $s-3;
+	border: 1px solid $primary-60;
+	border-radius: $br-main;
+	padding: calc($s-4 / 2);
+	@media (min-width: 768px) {
+		padding: $s-4;
+		height: calc(100% - $s-4);
+	}
+	@media (min-width: 992px) {
+		margin-top: $s-6;
+		height: calc(100% - $s-6);
+	}
+	@media (min-width: 1200px) {
+		padding: $s-5;
+		height: calc(100% - $s-5);
+	}
+}
+
+.session__button {
+	margin-top: $s-3;
+	@media (min-width: 768px) {
+		margin-top: $s-5;
+	}
+}

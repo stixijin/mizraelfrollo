@@ -1,0 +1,41 @@
+.about-me {
+	margin-top: $s-6;
+	margin-bottom: calc($section-margin / 2);
+	@media (min-width: 768px) {
+		margin-bottom: $section-margin;
+		margin-top: -180px;
+	}
+	@media (min-width: 1200px) {
+		margin-top: -100px;
+	}
+	@media (min-width: 1400px) {
+		margin-top: -200px;
+	}
+}
+
+.about-me__image {
+	border-radius: $br-main;
+	height: 100%;
+	max-width: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 60%;
+}
+
+.about-me__content {
+	background: $primary-60;
+	border-radius: $br-main;
+	margin-top: $s-3;
+	padding: calc($s-4 / 2) calc($s-5 / 2);
+	@media (min-width: 768px) {
+		margin-top: $s-5;
+		padding: $s-4 $s-4;
+	}
+	@media (min-width: 1024px) {
+		height: 100%;
+		margin-top: 0;
+		padding: $s-4 $s-5;
+	}
+	
+
+}

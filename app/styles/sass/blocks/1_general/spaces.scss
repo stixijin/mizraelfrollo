@@ -1,3 +1,18 @@
+$module: 8px;
+$s-xxs: calc($module/4);
+$s-xs: calc($module/2);
+$s-1: calc($module);
+$s-2: calc($module*2);
+$s-3: calc($module*3);
+$s-4: calc($module*4);
+$s-5: calc($module*5);
+$s-6: calc($module*6);
+$s-7: calc($module*7);
+$s-8: calc($module*8);
+$s-9: calc($module*10);
+$s-10: calc($module*15);
+
+
 .mt-10 {
 	margin-top: calc($s-10 / 4) ;
 	@media (min-width: 768px) {

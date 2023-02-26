@@ -1,0 +1,16 @@
+.themes {
+	margin: $section-margin 0;
+}
+
+.theme__image {
+	height: 80px;
+	width: 80px;
+	border-radius: $br-main;
+}
+
+.theme {
+	display: flex;
+	align-items: center;
+	gap: $s-3;
+	margin-top: $s-4;
+}

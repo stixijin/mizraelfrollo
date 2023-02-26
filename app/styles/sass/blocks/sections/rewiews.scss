@@ -1,0 +1,118 @@
+.rewiews {
+	margin: calc($section-margin / 2) 0;
+	@media (min-width: 768px) {
+		margin: $section-margin 0;
+	}
+}
+
+.swiper__navigation {
+	display: flex;
+	justify-content: end;
+	gap: $s-2;
+}
+
+.swiper-button-prev, .swiper-button-next {
+	position: static;
+	height: auto;
+	width: auto;
+}
+
+.swiper__button-next, .swiper__button-prev{
+	transition-property: fill, stroke;
+	transition-duration: $transitionDur_dafault;
+	transition-timing-function: $transitionFunc_default;
+	background: $accent-40;
+	height: 48px;
+	width: 48px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.swiper__button-next:hover, .swiper__button-prev:hover {
+	background: $accent-40-hover;
+}
+
+.swiper__button-next .icon_arrow-min {
+	transform: scale(-1, 1);
+	margin-left: 6px;
+}
+
+.swiper__button-prev .icon_arrow-min {
+	margin-left: -4px;
+}
+
+.swiper-slide {
+	border-radius: $br-main;
+	display: flex;
+	border: 1px solid $primary-60;
+	padding: calc($s-4/2);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: $s-5;
+	margin: 0 $s-1;
+	@media (min-width: 768px) {
+		padding: $s-4;
+	}
+	@media (min-width: 992px) {
+		flex-direction: row;
+	}
+}
+
+.rewiew__image {
+	border-radius: 100%;
+}
+
+.slide__content {
+	display: flex;
+	flex-direction: column;
+	gap: $s-1;
+	margin-top: $s-3;
+	@media (min-width: 768px) {
+		margin-top: 0;
+	}
+}
+
+.rewiew__title {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.slide__image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.slide__social {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: $s-1;
+	@media (min-width: 768px) {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+.slide__name {
+	justify-content: space-between;
+	display: flex;
+	align-items: flex-end;
+	@media (min-width: 768px) {
+		align-items: center;
+	}
+}
+
+.swiper, .swiper-container {
+	overflow: visible;
+}
+
+.swiper-wrapper {
+	margin-top: $s-4;
+}

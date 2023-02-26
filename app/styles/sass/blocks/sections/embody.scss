@@ -1,0 +1,24 @@
+.embody {
+	margin: calc($section-margin / 2) 0;
+	@media (min-width: 768px) {
+		margin: $section-margin 0;
+	}
+}
+
+.embody__text {
+	margin-top: calc($s-5 / 2);
+	@media (min-width: 992px) {
+		margin-top: 0;
+	}
+}
+
+.embody__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: $br-main;
+}
+
+.embody__player {
+	margin-bottom: 0;
+}

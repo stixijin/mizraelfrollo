@@ -1,3 +1,7 @@
+.hero {
+	overflow-x: hidden;
+}
+
 .hero__action {
 		display: flex;
 		align-items: center;
@@ -104,6 +108,6 @@
 .hero__call {
 	margin-top: 64px;
 	@media (min-width: 1200px) {
-		margin-top: 0px;
+		margin-top: $s-1;
 	}
 }

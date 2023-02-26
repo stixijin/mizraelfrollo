@@ -1,0 +1,18 @@
+.methods {
+	margin: $section-margin 0;
+}
+
+.method__item {
+	margin-top: $s-2;
+	padding: $s-3;
+	border: 1px solid $primary-60;
+	border-radius: $br-main;
+	width: fit-content;
+	@media (min-width: 768px) {
+		margin-top: $s-4;
+	}
+}
+
+.methods__title {
+	margin-bottom: $s-2;
+}
